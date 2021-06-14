@@ -1,0 +1,29 @@
+{
+  "name": "covid-dev",
+  "version": "1.0.0",
+  "description": "รายงาน covid",
+  "main": " index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxZero-Zity/Covid-dev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxZero-Zity/Covid-dev/issues"
+  },
+  "homepage": "https://github.com/MaxZero-Zity/Covid-dev#readme",
+  "dependencies": {
+    "comma-number": "^2.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "request-promise": "^4.2.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
